@@ -1,6 +1,6 @@
 cask "cans" do
-  version "1.0.1"
-  sha256 "5b474160ed99dc1c87a1a49035bfc204d5813d77b73cbab493d8f19bfff435f9"
+  version "1.0.2"
+  sha256 "551d6368223889fe0fff7eb4b22f2cc2666da29b3ad9affcacb17cb9277df6a9"
 
   url "https://github.com/unhingedpanda/cans/releases/download/v#{version}/Cans.zip"
   name "Cans"
@@ -12,6 +12,7 @@ cask "cans" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Cans.app"
