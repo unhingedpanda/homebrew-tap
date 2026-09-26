@@ -1,6 +1,6 @@
 cask "cans" do
-  version "1.0.0"
-  sha256 "e4f064d910eb3e2ef56a8e2de8c45b044e263cee8c61109454614526b3f9fbe5"
+  version "1.0.1"
+  sha256 "5b474160ed99dc1c87a1a49035bfc204d5813d77b73cbab493d8f19bfff435f9"
 
   url "https://github.com/unhingedpanda/cans/releases/download/v#{version}/Cans.zip"
   name "Cans"
